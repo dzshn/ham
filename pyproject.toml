@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ham"
+version = "0.1.0"
+description = "hamspeak"
+authors = ["Sofia N. Lima <me@dzshn.xyz>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.23.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
